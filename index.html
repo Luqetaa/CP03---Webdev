@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Cadastrados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="formulario">
+        <label>Nome do produto: </label>
+        <input type="text" id="inputProduto">
+        <br>
+        <label>Preco: </label>
+        <input type="text" id="inputPreco">
+        <br>
+        <label>Selecione:</label>
+        <select id="categoria">
+            <option value="tecnologia" class="tecnologia">Tecnologia</option>
+            <option value="alimentos" class="alimentos">Alimentos</option>
+            <option value="remedio">Remedio</option>
+        </select>
+        <br><br>
+        <button type="submit" id="butao">Cadastrar Produto</button>
+    </form>
+    <p id="mensagem"></p>
+    <h2>Produtos Cadastrados:</h2>
+    <div id="lista"></div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
